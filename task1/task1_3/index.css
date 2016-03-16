@@ -1,0 +1,114 @@
+body {
+	background-color: #eee;
+}
+nav {
+	height: 80px;
+	line-height: 80px;
+	background-color: #272727;
+	margin-bottom: 20px;
+}
+nav img {
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 10px; 
+	margin-left: 20px;
+}
+nav ul {
+	float: right;
+	margin: 0 20px;
+}
+nav ul li {
+	display: inline-block;
+	color: #fff;
+}
+nav ul li a {
+	display: inline-block;
+	color: #fff;
+}
+nav ul li a:hover{
+	color: #bdbdbd;
+}
+.content {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+}
+.layout-left {
+	float: left;
+	width: 158px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.layout-left img {
+	width: 80px;
+	height: 80px;
+}
+.layout-left .team-name {
+	float: right;
+	display: inline-block;	
+	font-size: 16px;
+}
+.layout-middle {
+	width: 100%;
+	margin-left: -200px;
+	margin-right: -120px;
+	float: left;
+}
+.layout-middle .middle-content {
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 0 20px 20px 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+	font-size: 14px;
+	color: #151515;
+}
+.layout-middle .middle-content p {
+	margin: 10px 0;
+}
+.layout-middle .middle-content .content-title {
+	font-size: 16px;
+	color: #272727;
+}
+.layout-right {
+	float: left;
+	width: 78px;
+	padding: 10px 20px 20px 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.layout-right ul li {
+	margin-top: 10px;
+}
+.layout-right ul li img {
+	width: 80px;
+	height: 80px;
+}
+footer {
+	width: 100%;
+	color: #fff;
+	height: 80px;
+	text-align: center;
+	background-color: #272727;
+	margin: 50px auto 0;
+}
+.text-indent {
+	text-indent: 20px;
+}
+.copy {
+	padding-top: 10px; 
+}
+.gary {
+	background-color: #bdbdbd;
+}
+.float-left {
+	float: left;
+}
+.meizi {
+	color: #fff;
+	background-color: #df001f;
+}
