@@ -4,6 +4,7 @@ body {
 nav {
 	height: 80px;
 	line-height: 80px;
+	min-width: 560px;
 	background-color: #272727;
 	margin-bottom: 20px;
 }
@@ -31,6 +32,7 @@ nav ul li a:hover{
 }
 .content {
 	width: 80%;
+	min-width: 450px;
 	margin: 0 auto;
 	background-color: #fff;
 	border: 1px solid #999;
@@ -53,14 +55,12 @@ nav ul li a:hover{
 	font-size: 16px;
 }
 .layout-middle {
-	width: 100%;
-	margin-left: -200px;
-	margin-right: -120px;
-	float: left;
-}
-.layout-middle .middle-content {
 	margin-left: 220px;
 	margin-right: 140px;
+	min-width: 90px;
+}
+.layout-middle .middle-content {
+	word-wrap:break-word;
 	padding: 0 20px 20px 20px;
 	background-color: #fff;
 	border: 1px solid #999;
@@ -75,7 +75,7 @@ nav ul li a:hover{
 	color: #272727;
 }
 .layout-right {
-	float: left;
+	float: right;
 	width: 78px;
 	padding: 10px 20px 20px 20px;
 	background-color: #fff;
