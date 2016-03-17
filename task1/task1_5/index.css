@@ -1,11 +1,6 @@
 body {
 	background-color: #eeeeee;
 }
-@media screen and (max-width:650px) {
-	.right-bar {
-		display: none;
-	}
-}
 nav {
 	height: 80px;
 	line-height: 80px;
@@ -161,6 +156,14 @@ footer {
 	text-align: center;
 	background-color: #272727;
 	margin: 0 auto;
+}
+@media screen and (max-width:650px) {
+	.right-bar {
+		display: none;
+	}
+	.left-bar {
+		width: 100%;
+	}
 }
 .desc {
 	font-size: 12px;
