@@ -1,0 +1,138 @@
+body {
+	background-color: #eeeeee;
+}
+nav {
+	height: 80px;
+	min-width: 560px;
+	line-height: 80px;
+	background-color: #272727;
+	margin-bottom: 20px;
+}
+nav img {
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 10px; 
+	margin-left: 20px;
+}
+nav ul {
+	float: right;
+	margin: 0 20px;
+}
+nav ul li {
+	display: inline-block;
+	color: #fff;
+}
+nav ul li a {
+	display: inline-block;
+	color: #fff;
+}
+nav ul li a:hover{
+	color: #bdbdbd;
+}
+.flex-box {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-flex-flow:  row nowrap;
+	-moz-flex-flow:  row nowrap;
+	-ms-flex-flow:  row nowrap;
+	-o-flex-flow:  row nowrap;
+	flex-flow:  row nowrap;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #7f7f7f;
+}
+.box1 , .box2, .box3{
+	border: 1px solid #f00;
+	width: 150px;
+	margin: 10px;
+}
+.box1 {
+	height: 120px;
+}
+.box2 {
+	height: 100px;
+}
+.box3 {
+	height: 40px;
+}
+.box4 {
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid #00f;
+}
+@media screen and (max-width:640px) {
+	.flex-box {
+		-webkit-display: flex;
+		-moz-display: flex;
+		-ms-display: flex;
+		-o-display: flex;
+		display: flex;
+		-webkit-flex-flow: wrap;
+		-moz-flex-flow: wrap;
+		-ms-flex-flow: wrap;
+		-o-flex-flow: wrap;
+		flex-flow: wrap;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		padding: 20px;
+		border: 1px solid #7f7f7f;
+
+	}
+	.box4 {
+		order: -1;
+	}
+}
+footer {
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	height: 80px;
+	text-align: center;
+	background-color: #272727;
+	margin: 80px auto;
+}
+.desc {
+	font-size: 12px;
+	color: #151515;
+}
+.text-indent {
+	text-indent: 20px;
+}
+.copy {
+	padding-top: 10px; 
+}
+.gary {
+	background-color: #bdbdbd;
+}
+.float-left {
+	float: left;
+}
+.item-box {
+	margin:10px 0;
+}
+.option-box {
+	margin-left: 70px;
+}
+.textarea-box {
+	margin-left: 40px;
+}
+.center-box {
+	margin-left: 20%;
+}
+.tip-box {
+	display: inline-block;
+}
+.tip-box p {
+	color: #dcdcdc;
+}
